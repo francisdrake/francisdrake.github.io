@@ -5,3 +5,5 @@ University of Notre Dame
 
 ### Experience
 Incoming Software Engineer @ Gnosis Freight
+
+[LinkedIn](https://www.linkedin.com/in/francis-drake-81079025b/)
