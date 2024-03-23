@@ -6,4 +6,4 @@ University of Notre Dame
 ### Experience
 Incoming Software Engineer @ Gnosis Freight
 
-![me](/assets/me.jpeg)
+![me](/assets/img/me.jpeg)
