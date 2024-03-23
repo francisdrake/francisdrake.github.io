@@ -1,4 +1,5 @@
-# Computer Scientist
+# Francis Drake | Computer Scientist
+![me](/me.jpeg)
 
 ### Education
 University of Notre Dame
