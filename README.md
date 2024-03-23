@@ -8,3 +8,5 @@ Incoming Software Engineer @ Gnosis Freight
 
 ### Get in touch
 [LinkedIn](https://www.linkedin.com/in/francis-drake-81079025b/)
+
+![me](/assets/me.jpeg)
