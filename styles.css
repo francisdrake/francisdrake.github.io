@@ -1,0 +1,32 @@
+/* Apply the EB Garamond font globally */
+body {
+    font-family: 'EB Garamond', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Optional: Apply font styles to headers or other elements */
+  h1, h2, h3 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;  /* Optional: bold for headers */
+  }
+  
+  p {
+    font-family: 'EB Garamond', serif;
+  }
+  
+  /* Navigation and other styles can also use the font */
+  nav a {
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Optional: Style links on hover */
+  nav a:hover {
+    color: #0056b3;
+  }
+  
