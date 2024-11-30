@@ -122,12 +122,12 @@ section p {
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* 3 or more columns, depending on screen size */
-  gap: 20px;  /* Space between images */
+  gap: 10px;  /* Reduced space between images */
   padding: 10px;
 }
 
 .gallery-item {
-  width: 50%;  /* Make each image fill half of the grid cell width */
+  width: 100%;  /* Make each image fill its grid cell */
   height: auto;  /* Maintain aspect ratio */
   border-radius: 8px;  /* Optional: rounded corners */
   object-fit: cover;  /* Ensures images cover the grid space without distortion */
@@ -138,6 +138,7 @@ section p {
 .gallery-item:hover {
   transform: scale(1.05);  /* Slight zoom effect when hovered */
 }
+
 
 /* Footer */
 footer {
