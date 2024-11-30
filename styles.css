@@ -97,6 +97,15 @@ section p {
   color: #555;
 }
 
+.profile-image {
+  width: 100%;   /* Make the image fill the container width */
+  max-width: 400px;  /* Limit the maximum width to 400px */
+  height: auto;  /* Maintain the aspect ratio */
+  display: block;  /* Make the image a block element to prevent text wrapping */
+  margin-left: auto;
+  margin-right: auto; /* Center the image */
+}
+
 /* Footer */
 footer {
   background-color: transparent;  /* Remove any unwanted background in footer */
