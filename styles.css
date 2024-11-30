@@ -102,8 +102,8 @@ section p {
   max-width: 400px;  /* Limit the maximum width to 400px */
   height: auto;  /* Maintain the aspect ratio */
   display: block;  /* Make the image a block element to prevent text wrapping */
-  margin-left: auto;
-  margin-right: auto; /* Center the image */
+  margin-left: 0;  /* Align the image to the left of the container */
+  margin-right: 0;  /* Remove any right margin */
 }
 
 /* Gallery Section */
