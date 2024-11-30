@@ -15,14 +15,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;  /* Align content at the top */
-  padding-left: 20px;  /* Padding for left alignment */
-  padding-right: 20px;  /* Padding for right alignment */
+  padding-left: 10px;  /* Reduce padding to move everything closer to the left */
+  padding-right: 20px;  /* Keep some padding on the right */
 }
 
 /* Container for content */
 .container {
   width: 100%;  /* Full width of the screen */
-  max-width: 900px;  /* Maximum width */
+  max-width: 960px;  /* Slightly wider container */
   margin: 0 auto;  /* Center content horizontally */
   text-align: left;  /* Left-align content */
 }
@@ -30,7 +30,7 @@ body {
 /* Header */
 header {
   margin-top: 0;  /* Remove extra space above header */
-  padding-bottom: 10px;  /* Slight spacing below header */
+  padding-bottom: 5px;  /* Less space below header */
   background-color: transparent;  /* No background for the header */
 }
 
@@ -56,7 +56,7 @@ header h1 a:hover {
 
 /* Navigation Menu */
 nav {
-  margin-top: 0;  /* Ensure navigation is directly below header */
+  margin-top: 5px;  /* Reduced space between header and navigation */
   padding: 10px 0;
   background-color: transparent;  /* No background for navigation */
 }
