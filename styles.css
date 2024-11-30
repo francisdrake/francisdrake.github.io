@@ -127,7 +127,7 @@ section p {
 }
 
 .gallery-item {
-  width: 100%;  /* Make each image fill its grid cell */
+  width: 50%;  /* Make each image fill half of the grid cell width */
   height: auto;  /* Maintain aspect ratio */
   border-radius: 8px;  /* Optional: rounded corners */
   object-fit: cover;  /* Ensures images cover the grid space without distortion */
