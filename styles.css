@@ -44,6 +44,16 @@ header p {
   color: #555;  /* Lighter gray for the secondary text */
 }
 
+/* Header */
+header h1 a {
+  color: #333;  /* Dark text color for the link */
+  text-decoration: none;  /* No underline on the link */
+}
+
+header h1 a:hover {
+  text-decoration: none;  /* Ensure no underline when hovered */
+}
+
 /* Navigation Menu */
 nav {
   margin-top: 0;  /* Ensure navigation is directly below header */
