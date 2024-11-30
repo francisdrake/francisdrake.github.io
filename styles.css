@@ -106,6 +106,39 @@ section p {
   margin-right: auto; /* Center the image */
 }
 
+/* Gallery Section */
+#gallery {
+  margin-top: 30px;
+}
+
+#gallery h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: left;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* 3 or more columns, depending on screen size */
+  gap: 20px;  /* Space between images */
+  padding: 10px;
+}
+
+.gallery-item {
+  width: 100%;  /* Make each image fill its grid cell */
+  height: auto;  /* Maintain aspect ratio */
+  border-radius: 8px;  /* Optional: rounded corners */
+  object-fit: cover;  /* Ensures images cover the grid space without distortion */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: subtle shadow */
+  transition: transform 0.3s ease;  /* Add a smooth transition on hover */
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);  /* Slight zoom effect when hovered */
+}
+
 /* Footer */
 footer {
   background-color: transparent;  /* Remove any unwanted background in footer */
