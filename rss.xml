@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Francis Drake's Blog</title>
+    <link>https://francisdrake.github.io/blog.html</link>
+    <description>Updates and thoughts from Francis Drake</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Aug 2025 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>August 31, 2025</title>
+      <link>https://francisdrake.github.io/posts/2025-08-31.html</link>
+      <description>This is my blog post for August 31, 2025.</description>
+      <pubDate>Sun, 31 Aug 2025 12:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
+</rss>
