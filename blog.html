@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="francis drake personal website">
+  <meta name="author" content="francis drake">
+  <title>Francis Drake</title>
+  
+  <!-- EB Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+  <!-- link to CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><a href="index.html">francis drake</a></h1>
+  </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="about.html">about</a></li>
+        <li><a href="experience.html">experience</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="projects">
+    <div class="container">
+      <ul>
+        <li>
+          <h3>education & relevant coursework</h3>
+          <p>a current junior pursuing my ba in computer science and economics at notre dame</p>
+          <p>coursework: discrete math, stats, theory of computing, data structures, systems programming, theory of computing, intro to ai</p>
+        </li>
+        <li>
+          <h3>skills</h3>
+          <p>languages - python, c; tools - linux, vscode, git, docker; database management - sql</p>
+        </li>
+        <li>
+          <h3>projects i've worked on</h3>
+          <p>as a swe intern @ gnosis freight, i innovated a comprehensive carbon emissions tracking system for > 2M containers, providing visibility into customers' environmental impact fully incorporated with our database and api</p>
+          <p>as a member of the microsoft sibc travel team, i created a pitch and prototype for an ai productivity application to present at microsoft headquarters along with 5 other team members, working specifically on system design, customer base, and market analysis</p>
+        </li>
+        <li>
+          <h3>other cool experiences</h3>
+          <p>i'm a current ta for systems programming</p>
+          <p>i'm studying at the university of st. andrews in the spring of '25</p>
+          <p>i worked as a nanny in santa teresa, costa rica in the summer of '23</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <script>
+    // Set the current year in the footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
