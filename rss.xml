@@ -8,10 +8,17 @@
     <lastBuildDate>Sun, 31 Aug 2025 12:00:00 GMT</lastBuildDate>
 
     <item>
-      <title>August 31, 2025</title>
+      <title>Reading 01</title>
       <link>https://francisdrake.github.io/posts/2025-08-31.html</link>
-      <description>This is my blog post for August 31, 2025.</description>
+      <description>This is my blog post for Reading 01.</description>
       <pubDate>Sun, 31 Aug 2025 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Reading 02</title>
+      <link>https://francisdrake.github.io/posts/2025-08-31.html</link>
+      <description>This is my blog post for Reading 02.</description>
+      <pubDate>Sun, 7 Sept 2025 12:00:00 GMT</pubDate>
     </item>
 
   </channel>
