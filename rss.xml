@@ -28,5 +28,12 @@
       <pubDate>Sun, 14 Sept 2025 12:00:00 GMT</pubDate>
     </item>
 
+    <item>
+      <title>Reading 04</title>
+      <link>https://francisdrake.github.io/posts/2025-08-31.html</link>
+      <description>This is my blog post for Reading 03.</description>
+      <pubDate>Mon, 29 Sept 2025 12:00:00 GMT</pubDate>
+    </item>
+
   </channel>
 </rss>

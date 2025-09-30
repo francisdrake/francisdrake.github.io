@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog post for Reading04">
+  <meta name="author" content="Francis Drake">
+  <title>Reading 04 | Francis Drake</title>
+  
+  <!-- EB Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Add spacing between paragraphs -->
+  <style>
+    p {
+      margin-bottom: 1.5em;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><a href="../index.html">francis drake</a></h1>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="../about.html">about</a></li>
+        <li><a href="../experience.html">experience</a></li>
+        <li><a href="../blog.html" class="active">blog</a></li>
+        <li><a href="../contact.html">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="post">
+    <div class="container">
+      <h2>reading 04: hackers and painters</h2>
+
+      <p>
+        Paul Graham’s version of a hacker is — for the most part — compatible with Stephen Levy’s description. Much like Levy’s depiction of hackers as social outcasts with little time to make friends, in “Why Nerds Are Unpopular,” Graham describes how nerds’ prioritization of school causes them to miss out on popularity. Furthermore, Graham’s observation that “out in the real world, nerds collect in certain places and form their own societies where intelligence is the most important thing” is exemplified by the MIT hackers of the 1960s and the game hackers at Berkeley.
+      </p>
+
+      <p>
+        Graham’s characterization of hackers in “Hackers and Painters” also aligns with Levy’s version. He urges that programming languages are “for thinking of programs” and should be “pencil[s], not [...] pen[s],” echoing the hands-on imperative. Even more so, Graham’s advocacy for the average computer programmer by day, side-quest master at night, epitomizes what it means to be a hacker. The ones writing software in their spare time are truly doing it for the love of the game, and it makes sense that those are the ones Graham prefers to hire. However, the one piece in Graham’s characterization that didn’t quite align with me was his suggestion that some hackers have the ability to “explain a technical question to someone without a technical background.” I actually see that as a common Achilles’ heel for hackers, stemming from a lack of social skills.
+      </p>
+
+      <p>
+        Finally, the mistrust of government and authority in “The Word ‘Hacker’” and “What You Can’t Say” is central to the hacker ethic. Hackers can “sense totalitarianism approaching from a distance, as animals can sense an approaching thunderstorm.” The true hacker is driven by a desire to break the rules and reverse-engineer code — to “think things so outside the box that they'd make people's hair stand on end.” This rebellious attitude is what makes hackers so successful: nerdy and freaky, but in a way that often pushes the world forward.
+      </p>
+
+      <p>
+        Graham’s comparison of hackers to painters resonates with me most deeply. It reminds me of why I switched my major to computer science (BACS, specifically) in the first place. I was studying ACMS and grew bored of plugging numbers into functions and memorizing formulas without understanding the underlying theory. I wanted to learn how to create something out of nothing — to understand systems fully and build upon them. As a kid, I loved Minecraft because it allowed me to build my own perfect world, and I believed computer science would give me even greater creative power. Over time, I’ve lost touch with that creative side, partly because I haven’t known what I want to build, and partly because of the pressure to take on impressive, intense projects like everyone else. In reality, I think I just want to design computer graphics or games. The difference between me and the “true” hackers, I suppose, is that they’d make the time to do it anyway.
+      </p>
+
+      <p>
+        I think Graham’s concept of a hacker aligns closely with Levy’s but feels more attainable and approachable for me — especially the idea of the hacker as a painter. I want to create art, not just be an engineer. Ultimately, there is room within the hacking community for a diverse range of contributors: scientists who explore uncharted intellectual territory, engineers who develop practical and elegant solutions, artists who wield technology as a creative medium, and many others. The qualities that make computer science so special — its beauty, diversity, and accessibility — must be preserved and carried forward by the hackers of today and tomorrow.
+      </p>
+
+      <p><a href="../blog.html">&larr; back to blog</a></p>
+    </div>
+  </section>
+
+  <script>
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
