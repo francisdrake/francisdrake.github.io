@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog post for Reading05">
+  <meta name="author" content="Francis Drake">
+  <title>Reading 05 | Francis Drake</title>
+  
+  <!-- EB Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Add spacing between paragraphs -->
+  <style>
+    p {
+      margin-bottom: 1.5em;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><a href="../index.html">francis drake</a></h1>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="../about.html">about</a></li>
+        <li><a href="../experience.html">experience</a></li>
+        <li><a href="../blog.html" class="active">blog</a></li>
+        <li><a href="../contact.html">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="post">
+    <div class="container">
+      <h2>reading 05: the language of thought</h2>
+
+      <p>
+        To be honest, until now, I have not spent much time at all thinking about the differences in programming languages. Sure, I’ve thought that Python code is much less annoying to write than C, but I have not thought about languages having varying levels of power. Likewise, I have been pretty close-minded and have not really thought about what is lacking in our current set of tools, and frankly don’t think I know enough to be able to comment upon that. In these essays, Graham explains how the big companies use the standard software and they inevitably regress to the mean as a result. The creative, out-of-the-box thinkers at startups who use powerful programming languages have the ability to do well above average. This idea holds true outside of computer science; for example, those proficient in advanced math could speak about and solve problems way beyond what is possible with simple algebra, like Einstein’s use of Riemannian geometry in general relativity giving him the ability to express a physical reality in a language most people could not use at the time.
+      </p>
+
+      <p>
+        Graham spends a lot of time selling Lisp, asserting “Lisp is worth learning for the profound enlightenment experience you will have when you finally get it” and that the “experience will make you a better programmer for the rest of your days.” Why have I never heard of Lisp? I think it goes back to the true hacker vs. non-true hacker characteristics. The true hacker will seek out the niche languages, think deeply about the pros and cons of each, be on the quest for certain functionalities that, to the untrained eye, seem boring and unexciting, but in reality are very profound and unlock new, unheard-of capabilities. The non-true hacker will learn what he or she is taught, and pragmatically want to put themself in the best position to succeed, and thus maybe try to learn these other languages like Lisp that Graham says he is impressed by. But a paradox arises: “The language to learn, if you want to get a good job, is a language that people don't learn merely to get a job.”
+      </p>
+
+      <p>
+        Another interesting thing to think about is the way in which languages shape the way we think about problems. Maybe part of the reason I’m close-minded about the possibilities of languages is that I’ve grown up with dogma, and that’s hard to break out of as Bret Victor spoke about. In high school, I took AP computer science principles and learned JavaScript, then here at Notre Dame I learned C as a foundational language and gradually picked up Python from other CS courses. Perhaps a better approach could be presenting coding problems to children and asking how they would go about solving them, and only after that begin to slowly introduce different coding languages that fit the way that kids already think, rather than the other way around. This would ensure, in my opinion, that artificial intelligence would not surpass the creativity in solving problems that the hacker possesses.
+      </p>
+
+      <p>
+        That being said, AI will obviously change the game of typical programming. This subject has been talked about ad nauseum. I think that there will be a minority of people who will continue coding in all types of languages, just as there are groups of people today coding in esoteric and sweaty languages. However, I anticipate the CS lingua franca will become English (or whatever other natural language), much like how higher level languages overtook machine code. Human language will prove to be the ultimate high-level language, the final boss in the evolution of computer programming. I feel like Graham would find this language to be the most efficient option from the perspective of the programmer; he remarks, “What's gross is a language that makes programmers do needless work. Wasting programmer time is the true inefficiency, not wasting machine time.” Whoever is able to articulate most concisely and logically will be able to fully capitalize upon the power of this new form of coding, and we are already seeing this unfold. At my consulting internship this past summer, my coworkers were telling me how they no longer have to bring in as many data scientists and computer programmers because they are able to do a lot of the data cleaning and analysis on their own in Claude. A brave new world is closer than we think in many ways.
+      </p>
+
+      <p><a href="../blog.html">&larr; back to blog</a></p>
+    </div>
+  </section>
+
+  <script>
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
