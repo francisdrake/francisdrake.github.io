@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog post for Reading07">
+  <meta name="author" content="Francis Drake">
+  <title>Reading 07 | Francis Drake</title>
+  
+  <!-- EB Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles.css">
+
+  <!-- Add spacing between paragraphs -->
+  <style>
+    p {
+      margin-bottom: 1.5em;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><a href="../index.html">francis drake</a></h1>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="../about.html">about</a></li>
+        <li><a href="../experience.html">experience</a></li>
+        <li><a href="../blog.html" class="active">blog</a></li>
+        <li><a href="../contact.html">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="post">
+    <div class="container">
+      <h2>reading 07: order and chaos</h2>
+
+      <p>
+        It’s clear that ESR thinks the bazaar is superior. And from the title of the course, I believe Prof. Bui thinks the same. I think the future of software development, especially with AI, will be dominated by the bazaar model, “releas[ing] early and often, delegat[ing] everything you can, be[ing] open to the point of promiscuity.” ESR did express a limitation of the bazaar model, that while one can “test, debug and improve in bazaar style,” he or she “cannot code from the ground up in bazaar style.” I, however, think AI makes it possible to start ground up in the bazaar model, to rapidly prototype and translate an idea on paper to a real project.
+      </p>
+
+      <p>
+        I firmly believe that everyone has the right to educate themselves, to read books to advance their knowledge, to leverage their education to improve their circumstances. This stance seems to align with the bazaar model and the hacker ethic. People have the right to code and build something without the barriers of a software giant and copyright hoops to jump through. May the one who is best able to use their education to their advantage win, and may the best code win.
+      </p>
+
+      <p>
+        Moreover, I definitely agree that the bazaar model is most efficient. It makes logical and statistical sense that, “given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.” And, within this model, the motives of the people do not really matter as long as the end goal of sharing information is met, making it easier to gather up big groups of people. In fact, ESR brought up an interesting point that perhaps many people’s motivation behind contributing to open source projects is altruism for the sake of being recognized for their altruism, i.e. to boost their ego.
+      </p>
+
+      <p>
+        But the cathedral model also has its merits. What an accomplishment it is to work away at a project in a small group, to have ownership over that thing, and to be able to create something that people want to buy from you, to have a magnum opus in your back pocket. While not in the spirit of the hacker ethic, such a partaking in the cathedral model aligns much more with the hacker as an artist. Because I do not know if I am as capable of such an accomplishment, perhaps that is why I prefer the more accessible bazaar model.
+      </p>
+
+      <p>
+        This all being said, from my (limited) experience, I do not think the two are mutually exclusive. As I’ve mentioned before, I interned two summers ago at a logistics software startup. We had some degree of cathedral-style management. A “VP of Product” oversaw the changes we were pushing to prod, but all he really cared about was that the frontend looked nice. I was free to work on my own project — a carbon emissions tracking algorithm — that we would push out to customers. I pushed my progress often, frequently got feedback from my team, used frameworks for my calculations I found online, had free reign over our ChatGPT account, and was able to push a beta version for testing. It was a race to see how fast I could get it done, without really any barriers in my way in true bazaar fashion. However, as the company grows and is bought by a private equity company, I fear the balance will disappear and it will become more like a cathedral.
+      </p>
+
+      <p>
+        Ultimately, I think the bazaar model is the future, especially with the rise of AI, but there will always be some (even if minor) need for the order and craftsmanship of the cathedral to keep the chaos of the bazaar productive.
+      </p>
+
+      <p><a href="../blog.html">&larr; back to blog</a></p>
+    </div>
+  </section>
+
+  <script>
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
