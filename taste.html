@@ -3,17 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="francis drake personal website">
-  <meta name="author" content="francis drake">
-  <title>francis drake</title>
+  <meta name="description" content="Taste of summer">
+  <meta name="author" content="Francis Drake">
+  <title>Taste of Summer</title>
   
   <!-- EB Garamond -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
-  <!-- link to CSS file -->
+  <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- RSS feed -->
+  <link rel="alternate" type="application/rss+xml" title="Taste of Summer" href="rss.xml" />
+  
 </head>
 <body>
   <header>
@@ -27,20 +31,25 @@
       <ul>
         <li><a href="about.html">about</a></li>
         <li><a href="experience.html">experience</a></li>
-        <li><a href="taste.html">taste of summer</a></li>
+        <li><a href="taste.html" class="active">taste of summer</a></li>
         <li><a href="contact.html">contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <section id="home">
+  <section id="blog">
     <div class="container">
-      <img src="assets/francis pura vida-23.JPG" alt="surf" class="profile-image">
+      <h2>blog</h2>
+      <ul>
+        <li>testing testing 1 2 3 </a></li>
+      </ul>
     </div>
   </section>
 
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    // Update footer year if you add a footer later
+    const yearEl = document.getElementById('year');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
