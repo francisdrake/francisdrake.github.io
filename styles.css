@@ -1,6 +1,6 @@
 /* General Reset */
 @font-face {
-  font-family: 'MingLiU_HKSCS';
+  font-family: 'HGHeiseiMinchotaiW3Light';
   src: url('./fonts/HGHeiseiMinchotaiW3Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
@@ -14,8 +14,7 @@
 
 /* Apply EB Garamond font */
 body {
-  /*font-family: 'EB Garamond', serif;*/
-  font-family: 'MingLiU_HKSCS', serif;
+  font-family: 'HGHeiseiMinchotaiW3Light', serif;
   background-color: #f4f4f4;  /* Light background for the page */
   color: #333;  /* Dark text for contrast */
   line-height: 1.6;
@@ -56,7 +55,7 @@ header p {
 header h1 a {
   color: #333;  /* Dark text color for the link */
   text-decoration: none;  /* No underline on the link */
-  font-family: 'Heisei Mincho', serif;
+  font-family: 'HGHeiseiMinchotaiW3Light', serif;
   font-size: 3rem;
 }
 
