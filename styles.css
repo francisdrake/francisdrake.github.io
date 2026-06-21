@@ -1,4 +1,12 @@
 /* General Reset */
+@font-face {
+  font-family: 'Walbaum Display Light';
+  src: url('/Users/francisdrake/francisdrake.github.io/fonts/walbaum-display.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +15,8 @@
 
 /* Apply EB Garamond font */
 body {
-  font-family: 'EB Garamond', serif;
+  /*font-family: 'EB Garamond', serif;*/
+  font-family: 'Walbaum Display Light', serif;
   background-color: #f4f4f4;  /* Light background for the page */
   color: #333;  /* Dark text for contrast */
   line-height: 1.6;
