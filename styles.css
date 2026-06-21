@@ -12,18 +12,8 @@
   box-sizing: border-box;
 }
 
-/* Apply EB Garamond font */
 body {
-  font-family: 'HGHeiseiMinchotaiW3Light', serif;
-  background-color: #f4f4f4;  /* Light background for the page */
-  color: #333;  /* Dark text for contrast */
-  line-height: 1.6;
-  height: auto;  /* Let body height adjust naturally */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;  /* Align content at the top */
-  padding-left: 10px;  /* Reduce padding to move everything closer to the left */
-  padding-right: 20px;  /* Keep some padding on the right */
+  font-family: "HGHeiseiMinchotaiW3";
 }
 
 /* Container for content */
@@ -53,10 +43,8 @@ header p {
 
 /* Header */
 header h1 a {
-  color: #333;  /* Dark text color for the link */
-  text-decoration: none;  /* No underline on the link */
-  font-family: 'HGHeiseiMinchotaiW3Light', serif;
-  font-size: 3rem;
+  font-family: "HGHeiseiMinchotaiW3";
+  font-size: 4rem;
 }
 
 header h1 a:hover {
